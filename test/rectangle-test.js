@@ -17,6 +17,6 @@ describe('Rectangle', () => {
   });
 
   it('#isSquare', () => {
-    assert.isTrue(rectangle.perimeter(rec));
+    assert.isTrue(rectangle.isSquare(rec));
   });
 });
