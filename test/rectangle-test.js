@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const rectangle = require('../diagonal');
+const rectangle = require('../rectangle');
 
 describe('Rectangle', () => {
   const rec = { width: 10, height: 10 };
